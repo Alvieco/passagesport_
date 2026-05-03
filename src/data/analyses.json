@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "slug": "psg-vs-bayern-munchen-semifinal-ucl",
+    "title": "PSG vs Bayern München: 9 Gol & Perang Transisi di Semifinal UCL",
+    "date": "2025-05-01",
+    "category": "Tactical Analysis",
+    "competition": "UEFA Champions League",
+    "homeTeam": "PSG",
+    "awayTeam": "Bayern München",
+    "score": "5-4",
+    "author": "PassageSport",
+    "thumbnail": "/images/analyses/psg-bay.jpg",
+    "tags": ["UCL", "PSG", "Bayern", "transisi", "high press", "Luis Enrique", "Kompany"],
+    "summary": "9 gol tercipta dalam laga semifinal yang merepresentasikan dua tim bermain full attack. Kedua tim saling terbuka, menciptakan banyak situasi transisi. PSG unggul possession dan xG, namun Luis Enrique mengubah game plan di babak kedua menjadi lebih reaktif.",
+    "xG": { "home": 3.85, "away": 3.12 },
+    "possession": { "home": 58, "away": 42 },
+    "sections": [
+      {
+        "heading": "Setup Awal: 4-3-3 vs 4-2-3-1",
+        "body": "Luis Enrique menurunkan 4-3-3 dengan trio gelandang Vitinha, Neves, dan Zaïre-Emery untuk menopang Dembélé, Fabian Ruiz, serta Farat Celia. Sementara Vincent Kompany memilih pakem 4-2-3-1 dengan Kimmich dan Pavlović di posisi double pivot. Olise, Díaz, dan Musiala diplot di belakang Harry Kane. Lima gol terjadi di babak pertama — rekor gol terbanyak di semifinal dalam 45 menit awal."
+      },
+      {
+        "heading": "High Press Bayern: Man-to-Man Tanpa Struktur",
+        "body": "Sejak menit ketiga, Bayern menerapkan high press berbasis man-to-man dengan dua pressure dari Kane dan Musiala, didukung Díaz, Kimmich, dan Pavlović. Bahkan Stanisic yang berposisi bek kanan ikut naik ke tengah untuk marking Zaïre-Emery. Press ini tidak memiliki struktur simetris — pemain berpindah posisi mengikuti man-mark. Meski demikian, Kompany tetap menjaga tiga bek di belakang sebagai jaring pengaman."
+      },
+      {
+        "heading": "Rotasi Posisi Cair PSG Memecah Press",
+        "body": "PSG membangun serangan dengan struktur 4-3 — empat bek plus satu pivot dan dua gelandang serang. Gelandang bergerak cair: dua turun, satu naik. Hakimi kerap naik mengisi pos winger kanan, membuat Dembélé bergerak lebih ke tengah bersama Zaïre-Emery yang roaming ke kiri. Luis Enrique juga banyak memainkan bola panjang ke pemain depan yang drop, memancing bek tengah Bayern naik dan mengekspos ruang di belakangnya."
+      },
+      {
+        "heading": "Gol-Gol Babak Pertama: Eksploitasi Transisi",
+        "body": "Gol pertama Bayern lahir dari penalti setelah tackle Pavlović mengenai kaki pemain PSG — Kane mengeksekusi sempurna (0-1). PSG balas lewat Fabian Ruiz yang lepas dari marking Stanisic usai umpan lob Zaïre-Emery (1-1). Joao Neves menanduk bola corner ke tiang dekat untuk gol 2-1. Olise mencetak gol indah dari tengah setelah mengekspos ruang antar lini (2-2). Drama penalti akibat handball Díaz dieksekusi sempurna Dembélé untuk skor 3-2 sebelum jeda."
+      },
+      {
+        "heading": "Perubahan Babak Kedua: Mematikan Zaïre-Emery",
+        "body": "Kompany memasukkan Limer dengan tugas spesifik mematikan Zaïre-Emery yang menjadi target progresi PSG. Namun Luis Enrique justru mengeksploitasi pendekatan ini — saat Limer mengikuti Zaïre-Emery drop, ruang di belakangnya terbuka lebar. Hakimi merangsek masuk menerima long pass, mengirim cutback ke Dembélé yang memberikan umpan ke Fabian Ruiz untuk gol keempat PSG."
+      },
+      {
+        "heading": "PSG Bermain Reaktif, Bayern Kejar Ketinggalan",
+        "body": "Dengan keunggulan 5-2, Luis Enrique memilih bermain reaktif — menurunkan tempo dan melepas penguasaan bola. Bayern memanfaatkan situasi ini dengan meraih tiga gol balasan melalui transisi dan serangan balik. Gol Luis Díaz lahir dari kombinasi transisi indah — menerima umpan lob Kimmich, mengontrol bola, fake shot, lalu menghujamkan ke sisi kiri gawang. Laga kedua masih sangat terbuka."
+      }
+    ],
+    "playerRatings": [
+      { "name": "Ousmane Dembélé", "team": "PSG", "rating": 8.8, "note": "1 gol (penalti), 2 assist, ancaman konstan dari sayap" },
+      { "name": "Fabian Ruiz", "team": "PSG", "rating": 8.5, "note": "2 gol, pergerakan check in/check out yang cerdas lepas dari marking" },
+      { "name": "Achraf Hakimi", "team": "PSG", "rating": 8.2, "note": "Ofensif dominan, naik mengisi pos winger, kunci rotasi posisi PSG" },
+      { "name": "Zaïre-Emery", "team": "PSG", "rating": 7.9, "note": "Target progresi utama, roaming efektif, memancing press Bayern" },
+      { "name": "Harry Kane", "team": "Bayern München", "rating": 8.1, "note": "1 gol (penalti), distribusi bola baik, kunci kombinasi transisi Bayern" },
+      { "name": "Michael Olise", "team": "Bayern München", "rating": 8.3, "note": "1 gol spektakuler dari tengah, mengekspos ruang antar lini dengan cerdik" },
+      { "name": "Luis Díaz", "team": "Bayern München", "rating": 8.0, "note": "1 gol indah dengan fake shot, kemampuan individu tinggi" },
+      { "name": "Joshua Kimmich", "team": "Bayern München", "rating": 7.6, "note": "Long pass akurat, assist gol Díaz, pivot yang stabil" }
+    ]
+  },
+  {
+    "id": "2",
+    "slug": "manchester-city-vs-arsenal-taktik-pressing",
+    "title": "Manchester City vs Arsenal: Duel Pressing & Build-Up",
+    "date": "2025-04-15",
+    "category": "Tactical Analysis",
+    "competition": "Premier League",
+    "homeTeam": "Manchester City",
+    "awayTeam": "Arsenal",
+    "score": "2-1",
+    "author": "PassageSport",
+    "thumbnail": "/images/analyses/mci-ars.jpg",
+    "tags": ["pressing", "build-up", "Premier League", "Guardiola", "Arteta"],
+    "summary": "Pertarungan dua filosofi pressing terbaik di Eropa. City mendominasi fase build-up dengan rotasi posisi, sementara Arsenal memaksimalkan high press untuk merebut bola di sepertiga atas.",
+    "xG": { "home": 2.34, "away": 1.87 },
+    "possession": { "home": 54, "away": 46 },
+    "sections": [
+      {
+        "heading": "Struktur Pressing Arsenal",
+        "body": "Arsenal memulai dengan 4-3-3 saat pressing, di mana Saka dan Martinelli berfungsi sebagai sayap-penekan yang menutup jalur umpan ke bek kiri-kanan City. Odegaard bergerak maju untuk menekan holding midfielder, memaksa distribusi ke bek tengah."
+      },
+      {
+        "heading": "Respons City: Rotasi Posisi",
+        "body": "Guardiola merespons dengan rotasi inverted fullback — Cancelo dan Walker masuk ke dalam garis tengah untuk menciptakan overload 3v2 melawan midfield Arsenal. Hal ini membuka ruang di sisi untuk De Bruyne beroperasi sebagai false winger."
+      },
+      {
+        "heading": "Momen Kunci: Gol ke-2 City",
+        "body": "Gol kedua City lahir dari eksploitasi pressing Arsenal yang terlalu agresif. Satu umpan panjang Ederson melewati seluruh lini tekan, Haaland menerima bola di ruang kosong di belakang bek Arsenal yang naik terlalu tinggi."
+      }
+    ],
+    "playerRatings": [
+      { "name": "Erling Haaland", "team": "Manchester City", "rating": 8.2, "note": "2 gol, pressing trigger efektif" },
+      { "name": "Kevin De Bruyne", "team": "Manchester City", "rating": 8.5, "note": "Kreator utama, 1 assist, 7 key passes" },
+      { "name": "Martin Odegaard", "team": "Arsenal", "rating": 7.4, "note": "Pressing aktif, 1 gol, kehilangan bola kritis" },
+      { "name": "Bukayo Saka", "team": "Arsenal", "rating": 7.1, "note": "Dribel sukses 4/6, 2 peluang diciptakan" }
+    ]
+  }
+]
