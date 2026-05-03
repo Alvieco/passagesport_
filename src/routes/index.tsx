@@ -10,7 +10,7 @@ export const Route = createFileRoute('/')({
 const tickerItems = [
   'BREAKING: Alejandro Vega completes medical ahead of City move',
   'CONFIRMED: Nkosi Okafor joins Liverpool on 5-year deal — £56.2M',
-  'UCL SEMIFINAL: Real Madrid 2–1 Manchester City — Full time',
+  'UCL SEMIFINAL: PSG 5–4 Bayern Munchen — Full time',
   'Tomás Červenka set for Bernabéu medical this weekend',
   'Arsenal leading race for Dante Ferreira amid PSG interest',
   'Bayern Munich confirm Yuki Tanaka agreement — €29.4M fee',
@@ -20,15 +20,15 @@ const tickerItems = [
 
 const featuredNews = [
   {
-    id: 1,
-    tag: 'UCL SEMIFINAL',
-    tagColor: 'var(--yellow)',
-    headline: 'Real Madrid Dismantle City in Tactical Masterclass at the Bernabéu',
-    summary:
-      'A Bellingham brace and clinical defensive structure handed Real Madrid a commanding first-leg advantage, exposing City\'s high-line with precision counter-attacks.',
-    time: '2H AGO',
-    category: 'CHAMPIONS LEAGUE',
-    stat: '65% possession — 7 shots on target — 2.4 xG',
+    homeTeam: 'PSG',
+  awayTeam: 'Bayern München',
+  score: '5 — 4',
+  stats: [
+    { label: 'Possession', home: 58, away: 42, unit: '%' },
+    { label: 'Shots', home: 16, away: 18, unit: '' },
+    { label: 'xG', home: 3.85, away: 3.12, unit: '' },
+    { label: 'Pass Acc.', home: 79, away: 83, unit: '%' },
+    { label: 'Pressures', home: 103, away: 118, unit: '' },
   },
   {
     id: 2,
