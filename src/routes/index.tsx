@@ -133,15 +133,15 @@ const leagueTable = [
 ]
 
 const matchStats = {
-  homeTeam: 'Real Madrid',
-  awayTeam: 'Man City',
-  score: '2 — 1',
-  stats: [
-    { label: 'Possession', home: 35, away: 65, unit: '%' },
-    { label: 'Shots', home: 9, away: 14, unit: '' },
-    { label: 'xG', home: 2.41, away: 1.87, unit: '' },
-    { label: 'Pass Acc.', home: 82, away: 91, unit: '%' },
-    { label: 'Pressures', home: 127, away: 94, unit: '' },
+ <span style={{ fontFamily: 'var(--font-mono)', fontSize: '14px', color: 'var(--yellow)', letterSpacing: '0.12em' }}>
+  PSG
+</span>
+<span style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 900, color: 'var(--text-primary)' }}>
+  5 — 4
+</span>
+<span style={{ fontFamily: 'var(--font-mono)', fontSize: '14px', color: 'var(--text-secondary)', letterSpacing: '0.12em' }}>
+  BAYERN MÜNCHEN
+</span>
   ],
 }
 
@@ -379,34 +379,25 @@ function Home() {
                 clipPath: 'polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%)',
               }}
             >
-              <span style={{ fontFamily: 'var(--font-mono)', fontSize: '14px', color: 'var(--yellow)', letterSpacing: '0.12em' }}>
-                REAL MADRID
-              </span>
-              <span style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 900, color: 'var(--text-primary)' }}>
-                2 — 1
-              </span>
-              <span style={{ fontFamily: 'var(--font-mono)', fontSize: '14px', color: 'var(--text-secondary)', letterSpacing: '0.12em' }}>
-                MAN CITY
-              </span>
+             <span style={{ fontFamily: 'var(--font-mono)', fontSize: '14px', color: 'var(--yellow)', letterSpacing: '0.12em' }}>
+  PSG
+</span>
+<span style={{ fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: 900, color: 'var(--text-primary)' }}>
+  5 — 4
+</span>
+<span style={{ fontFamily: 'var(--font-mono)', fontSize: '14px', color: 'var(--text-secondary)', letterSpacing: '0.12em' }}>
+  BAYERN MÜNCHEN
+</span> 
             </div>
 
             {/* Main headline */}
             <h1
-              className="glitch"
-              data-text="COUNTER-PRESS. COUNTER-ATTACK. MASTERY."
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(28px, 5vw, 58px)',
-                fontWeight: 900,
-                lineHeight: 1.08,
-                letterSpacing: '0.04em',
-                textTransform: 'uppercase',
-                color: 'var(--text-primary)',
-                marginBottom: '24px',
-              }}
-            >
-              COUNTER-PRESS.<br />COUNTER-ATTACK.<br />MASTERY.
-            </h1>
+  className="glitch"
+  data-text="9 GOALS. TWO STYLES. ONE WINNER."
+  style={{...}}
+>
+  9 GOALS.<br />TWO STYLES.<br />ONE WINNER.
+</h1>
 
             <p
               style={{
@@ -419,8 +410,9 @@ function Home() {
                 marginBottom: '36px',
               }}
             >
-              A Bellingham brace and ruthless pressing structure dismantled Guardiola's possession machine at the Bernabéu.
-              Madrid's xG of 2.41 with only 35% possession rewrites the tactical playbook.
+            Dembélé, Fabian Ruiz, dan rotasi posisi cair Luis Enrique membongkar
+  high press Bayern yang tidak terstruktur. 5 gol di babak pertama —
+  rekor semifinal UCL. PSG menang 5–4 dalam laga yang akan dikenang sejarah.
             </p>
 
             {/* CTA row */}
@@ -444,10 +436,10 @@ function Home() {
               }}
             >
               {[
-                { label: 'xG (Madrid)', value: '2.41' },
-                { label: 'Pressures', value: '127' },
-                { label: 'Counter-attacks', value: '11' },
-                { label: 'Pass acc.', value: '82%' },
+              { label: 'xG (PSG)', value: '3.85' },
+{ label: 'Total Goals', value: '9' },
+{ label: 'Transitions', value: '34' },
+{ label: 'Pass acc.', value: '79%' },
               ].map((s, i) => (
                 <div
                   key={s.label}
