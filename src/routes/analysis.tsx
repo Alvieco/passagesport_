@@ -107,6 +107,39 @@ const ANALYSES = [
       home: '4-2-3-1',
       away: '4-2-3-1',
     },
+  },{
+    id: 4,
+    match: 'PSG vs Bayern München',
+    competition: 'UCL Semifinal · Leg 1',
+    date: '01 MAY 2025',
+    score: '5–4',
+    tag: 'TACTICAL',
+    tagColor: 'var(--cyan)',
+    headline: "9 Goals, Two Philosophies: How PSG's Fluid Rotations Dismantled Bayern's Man Press",
+    summary:
+      "Luis Enrique's side exploited Bayern's unstructured man-to-man press through fluid positional rotations and long balls behind the line. 5 goals in the first half — a UCL semifinal record. Enrique then switched to reactive football to protect the lead.",
+    keyInsight: 'PSG scored 3 goals directly from transition phases. Bayern pressed 47 times, won ball only 11.',
+    author: 'PASSAGESPORT',
+    readTime: '14 MIN READ',
+    xG: { home: 3.85, away: 3.12 },
+    possession: { home: 58, away: 42 },
+    tacticalPoints: [
+      "Bayern's man press had no structural symmetry — Stanisic tracked Zaïre-Emery into the center",
+      'Hakimi inverted to winger, giving Dembélé freedom to roam as false striker',
+      "PSG's long ball game bypassed Bayern's high press 12 times in 90 minutes",
+      'Enrique switched to reactive 4-4-2 block at 5-2 — possession dropped from 63% to 44%',
+    ],
+    playerRatings: [
+      { name: 'Dembélé', pos: 'RW', rating: 8.8, goals: 1, assists: 2, keyPasses: 5 },
+      { name: 'Fabian Ruiz', pos: 'CM', rating: 8.5, goals: 2, assists: 0, keyPasses: 3 },
+      { name: 'Hakimi', pos: 'RB', rating: 8.2, goals: 0, assists: 1, keyPasses: 4 },
+      { name: 'Olise', pos: 'RW', rating: 8.3, goals: 1, assists: 0, keyPasses: 5 },
+      { name: 'Kane', pos: 'ST', rating: 8.1, goals: 1, assists: 1, keyPasses: 3 },
+    ],
+    formation: {
+      home: '4-3-3',
+      away: '4-2-3-1',
+    },
   },
 ]
 
