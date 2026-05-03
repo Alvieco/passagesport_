@@ -111,7 +111,7 @@ const ANALYSES = [
     id: 4,
     match: 'PSG vs Bayern München',
     competition: 'UCL Semifinal · Leg 1',
-    date: '01 MAY 2025',
+    date: '03 MAY 2026',
     score: '5–4',
     tag: 'TACTICAL',
     tagColor: 'var(--cyan)',
